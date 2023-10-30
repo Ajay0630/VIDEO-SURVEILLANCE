@@ -1,0 +1,32 @@
+.btn-block{
+    font-size: xx-large !important;
+}
+
+.btn{
+    font-size: x-large;
+}
+
+body{
+    background-size: cover;
+}
+
+.ihavecopyright{
+    position: fixed;
+    bottom: 0;
+    background-color: grey;
+    color: orange;
+    text-align: center;
+    font-size: x-large !important;
+    width: 100%;
+}
+
+canvas{
+    animation: cookl;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes cookl {
+    from {box-shadow: 10px 10px 20px white}
+    to {box-shadow: 10px 10px 20px black}
+}
